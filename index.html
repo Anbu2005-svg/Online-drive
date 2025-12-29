@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Online Drive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📁 My Online Drive</h1>
+
+<div class="controls">
+    <input type="text" id="folderName" placeholder="Folder name">
+    <button onclick="createFolder()">Create Folder</button>
+</div>
+
+<div class="controls">
+    <select id="folderSelect"></select>
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Upload File</button>
+</div>
+
+<h2>Folders</h2>
+<div id="folders"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

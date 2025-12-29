@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    text-align: center;
+}
+
+.controls {
+    margin: 10px;
+}
+
+input, select {
+    padding: 6px;
+}
+
+button {
+    padding: 6px 12px;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0c5edb;
+}
+
+.folder {
+    background: white;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.folder h3 {
+    margin: 0;
+}
